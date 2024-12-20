@@ -27,7 +27,7 @@ java {
 dependencies {
     // Note: it is enough to mention key projects here, and testng transitives
     // would be selected automatically
-    shadedDependencyElements(projects.testngAsserts)
+   //hadedDependencyElements(projects.testngAsserts)
     shadedDependencyElements(projects.testngCore)
 }
 
